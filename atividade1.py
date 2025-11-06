@@ -1,7 +1,7 @@
 # Pergunta o nome e guarda na variavel 'nome'
 nome = input("Qual é o seu nome? ")
 
-# Pergunta a idade do usuario
+# Pergunta a idade do usuário
 idade_texto = input("Qual é a sua idade? ")
 
 # Converte a idade de texto para número 

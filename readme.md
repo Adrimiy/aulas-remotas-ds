@@ -1,6 +1,6 @@
 # Projeto: Atividades de Python
 
-Esse projeto contém dois programas desenvolvidos em **Python** para praticar a lógica de programação.
+Esse projeto contém quatro programas desenvolvidos em **Python** para praticar a lógica de programação.
 Cada código faz uma tarefa diferente e serve como exercício de aprendizado.
 
 ---

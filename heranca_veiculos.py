@@ -18,7 +18,7 @@ class Carro(Veiculo):
         return f"Marca: {self.marca}, Modelo: {self.modelo}, Portas: {self.numero_portas}"
 
 
-# Entrada de dados digitados pelo usuário
+# Entrada dos dados digitados pelo usuário
 marca = input("Digite a marca do carro: ")
 modelo = input("Digite o modelo do carro: ")
 numero_portas = int(input("Digite o número de portas: "))

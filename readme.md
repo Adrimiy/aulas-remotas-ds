@@ -27,6 +27,35 @@ Esse programa pede ao usuário que ele digite um número e depois mostra a **tab
 
 ---
 
+### Calculadora (`funcao_calculadora.py`)
+O programa pede ao usuário que ele digite dois números e escolha uma operação **(+, -, *, /)**, para realizar o calculo dos dois números que foram digitados pelo usuário.
+
+#### Lógica utilizada:
+- Recebe dois números digitados pelo usuário com `input()` e converte para decimal com `float()`
+- Recebe também a operação desejada **(+, -, *, /)**.
+- A função `calculadora()` usa estruturas condicionais **if / elif / else** para identificar qual operação foi escolhida.
+- Executa o cálculo correspondente e retorna o resultado.
+- O programa exibe o resultado final com `print()`.
+- Caso a operação digitada não exista, mostra a mensagem **"Operação inválida!"**.
+
+---
+
+### Herança (`heranca_veiculos.py`)
+
+O programa pede ao usuário que digite as informações de um carro (marca, modelo e número de portas) e exibe esses dados na tela.
+Ele utiliza orientação a objetos com herança, onde a classe Carro herda características da classe Veiculo.
+
+#### Lógica utilizada:
+
+- Define uma classe pai **(Veiculo)** com os atributos marca e modelo.
+- Define uma classe filha **(Carro)** que herda de Veiculo e adiciona o atributo numero_portas.
+- Utiliza o método especial `__init__()` para inicializar os atributos das classes.
+- A classe filha usa `super()` para chamar o construtor da classe pai e aproveitar seu código.
+- O programa pede ao usuário que digite as informações do carro usando `input()`.
+- Cria um objeto da classe **Carro** com os dados digitados.
+- Exibe as informações completas do carro através do método `exibir_informacoes()`.
+
+---
 ## Programas utilizados
 - **Python 3.14**
 - **Visual Studio Code**
